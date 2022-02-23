@@ -1,0 +1,12 @@
+.menu {
+    background-color: red;
+}
+li > a {
+    font-weight: bold;
+    outline: none;
+}
+.submenu:hover{
+    background-color: red !important;
+    font-weight: bold;
+    color: white !important;
+}
