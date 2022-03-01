@@ -2,10 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 .menu {
-    background-color: red;
+    background-color: #e50b14;
 }
 li > a:hover{
-    background-color: red !important;
+    background-color: #e50b14 !important;
     color: white !important;
     font-weight: bold;
 }
@@ -14,7 +14,19 @@ li > a:hover{
     width: 175px;
 }
 .footer{
-    background-color: red;
+    background-color: #e50b14;
+}
+.copyright {
+    background-color: black;
+}
+.progreso1{
+    width: 95%;
+}
+.progreso2{
+    width: 75%;
+}
+.progreso3{
+    width: 50%;
 }
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ 
