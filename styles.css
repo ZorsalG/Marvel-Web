@@ -28,6 +28,12 @@ li > a:hover{
 .progreso3{
     width: 50%;
 }
+.youtube{
+    background-color: rgb(110, 16, 16) !important;
+}
+.twitter{
+    background-color: rgb(0, 162, 255) !important;
+}
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ 
         right:0; 
