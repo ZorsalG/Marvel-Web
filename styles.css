@@ -9,7 +9,12 @@ li > a:hover{
     color: white !important;
     font-weight: bold;
 }
-
+.msmarvel {
+    background-color: blueviolet !important;
+}
+.were{
+    background-color: rgb(93, 36, 36) !important;
+}
 .logo {
     width: 175px;
 }
