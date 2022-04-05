@@ -8,56 +8,28 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg menu sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo"
-                src="img/logomarvel.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navegador">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Series </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="wandavision.html">WandaVision</a></li>
-                            <li><a class="dropdown-item" href="faws.html">Falcon and the Winter Soldier</a></li>
-                            <li><a class="dropdown-item" href="whatif.html">What if...? </a></li>
-                            <li><a class="dropdown-item" href="hawkeye.html">Hawkeye</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Películas </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="blackwidow.html">Black Widow</a></li>
-                            <li><a class="dropdown-item" href="shangchi.html">Shang-Chi y la Leyenda de los 10 anillos</a></li>
-                            <li><a class="dropdown-item" href="eternals.html">Eternals</a></li>
-                            <li><a class="dropdown-item" href="spidermannowayhome.html">Spider-Man: No Way Home</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php
+    include 'header.php'
+?>
     <div id="controles" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/elcomercio/CIQ4MJMHLVHI3LOGESHH6RN5V4.jpg"
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1250B3C9EEE8DA6888470F1DC25A9DD9C07A876E49168AB22359A295D4E1D803/scale?width=1200&aspectRatio=1.78&format=jpeg"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://www.quever.news/u/fotografias/m/2021/8/30/f1280x720-14778_146453_4233.jpg"
+                <img src="https://cdn.mos.cms.futurecdn.net/vSkQjGs32jZmwjVSdY6RYQ-1200-80.jpg"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://9to5fortnite.com/wp-content/uploads/2021/09/whatif-mcu-marvel-studios-kevin-feige-disney-plus.jpg"
+                <img src="https://as01.epimg.net/meristation/imagenes/2021/12/13/noticias/1639393965_813312_1639393999_noticia_normal.jpg"
                     class="d-block w-100" alt="...">
             </div>
         </div>
@@ -74,31 +46,31 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 p-3">
-                <h2>What If...?</h2>
+                <h2>Eternals</h2>
                 <img
-                    src="https://www.explosioncomics.com/wp-content/uploads/2021/10/what-if-poster-marvel-studios-series-2021.jpg"
+                    src="https://pics.filmaffinity.com/Eternals-388789083-large.jpg"
                     class="img-thumbnail" />
                 <dl class="p-2">
                     <dt>Dirección</dt>
-                    <dd>A.C. Bradley</dd>
+                    <dd>Chloé Zhao</dd>
                     <dt>Producción</dt>
                     <dd>Kevin Feige</dd>
                     <dt>Guión</dt>
-                    <dd>A.C. Bradley</dd>
+                    <dd>Chloé Zhao, Patrick Burleigh, Ryan Firpo y Kaz Firpo</dd>
                     <dt>Música</dt>
-                    <dd>Laura Karpman</dd>
+                    <dd>Ramin Djawadi</dd>
                     <dt>Fotografía</dt>
-                    <dd>A.C. Bradley</dd>
+                    <dd>Ben Davis</dd>
                 </dl>
             </div>
 
             <div class="col-md-8 p-3">
                 <h2>Sinopsis</h2>
-                <p>What If...? (¿Qué pasaría si...? en España) es una serie de antología animada estadounidense creada por A.C. Bradley para el servicio de streaming Disney+, basada en la serie de Marvel Comics del mismo nombre. Es la cuarta serie de televisión del Universo cinematográfico de Marvel (MCU, por sus siglas en inglés) producida por Marvel Studios, y la primera serie animada del estudio. La serie explora líneas de tiempo alternativas en el multiverso que muestran lo que sucedería si los momentos importantes de las películas de MCU ocurrieran de manera diferente. Bradley se desempeña como escritor principal con la dirección de Bryan Andrews.</p>
+                <p>Eternals es una película de superhéroes basada en el comic homónimo de Marvel Comics. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la película número 26 en el Universo cinematográfico de Marvel (MCU). La película fue dirigida por Chloé Zhao, quien escribió el guion con Patrick Burleigh, Ryan Firpo y Kaz Firpo. Está protagonizada por un elenco que incluye a Gemma Chan, Richard Madden, Kumail Nanjiani, Lia McHugh, Brian Tyree Henry, Lauren Ridloff, Barry Keoghan, Don Lee, Harish Patel, Kit Harington, Salma Hayek y Angelina Jolie. En la película, los Eternos, una raza alienígena inmortal, emergen de su escondite después de miles de años para proteger a la Tierra de sus contrapartes malvadas, los Desviantes.</p>
 
                 <h2>Tráiler</h2>
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/x9D0uUKJ5KI" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/x_me3xsvDgk" title="YouTube video" allowfullscreen></iframe>
                   </div>
             </div>
         </div>

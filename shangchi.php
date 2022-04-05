@@ -15,50 +15,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg menu sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo"
-                    src="img/logomarvel.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navegador">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Series </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="wandavision.html">WandaVision</a></li>
-                            <li><a class="dropdown-item" href="faws.html">Falcon and the Winter Soldier</a></li>
-                            <li><a class="dropdown-item" href="whatif.html">What if...? </a></li>
-                            <li><a class="dropdown-item" href="hawkeye.html">Hawkeye</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Películas </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="blackwidow.html">Black Widow</a></li>
-                            <li><a class="dropdown-item" href="shangchi.html">Shang-Chi y la Leyenda de los 10 anillos</a></li>
-                            <li><a class="dropdown-item" href="eternals.html">Eternals</a></li>
-                            <li><a class="dropdown-item" href="spidermannowayhome.html">Spider-Man: No Way Home</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php
+        include 'header.php'
+    ?>
     <div id="controles" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://sm.ign.com/ign_latam/feature/h/hawkeye-re/hawkeye-release-date-trailer-cast-news_ua8v.jpg"
-                    class="d-block w-100" alt="...">
+                <img src="img/shangchi1.jpg"
+                    class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="https://mxblitz.com/wp-content/uploads/2021/11/hawkeye.jpg"
-                    class="d-block w-100" alt="...">
+                <img src="img/shangchi2.jpeg"
+                    class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="https://super-ficcion.com/wp-content/uploads/2021/12/Hawkeye-final-explicado.webp"
-                    class="d-block w-100" alt="...">
+                <img src="img/shangchi3.jpg"
+                    class="d-block w-100">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#controles" data-bs-slide="prev">
@@ -74,31 +46,31 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 p-3">
-                <h2>Hawkeye</h2>
+                <h2>Shang-Chi</h2>
                 <img
-                    src="https://pics.filmaffinity.com/Hawkeye_Miniserie_de_TV-585920449-large.jpg"
+                    src="img/portadashang.jpg"
                     class="img-thumbnail" />
                 <dl class="p-2">
                     <dt>Dirección</dt>
-                    <dd>Jonathan Igla</dd>
+                    <dd>Destin Daniel Cretton</dd>
                     <dt>Producción</dt>
                     <dd>Kevin Feige</dd>
                     <dt>Guión</dt>
-                    <dd>Katie Mathewson</dd>
+                    <dd>Dave Callaham, Destin Daniel Creston y Andrew Lanham</dd>
                     <dt>Música</dt>
-                    <dd>Christophe Beck</dd>
+                    <dd>Joel P. West</dd>
                     <dt>Fotografía</dt>
-                    <dd>Eric Steelberg/dd>
+                    <dd>Bill Pope</dd>
                 </dl>
             </div>
 
             <div class="col-md-8 p-3">
                 <h2>Sinopsis</h2>
-                <p>Hawkeye (titulada Ojo de Halcón en España) es una miniserie de televisión estadounidense creada por Jonathan Igla para el servicio de streaming Disney+, basada en el personaje de Marvel Comics del mismo nombre. Está ambientada en el Universo cinematográfico de Marvel (MCU, por sus siglas en inglés), compartiendo continuidad con las películas de la franquicia. La serie tiene lugar después de los eventos de la película Avengers: Endgame (2019) y presenta a una nueva superheroína llamada Kate Bishop / Hawkeye. Igla se desempeña como escritor principal con Rhys Thomas a la cabeza del equipo de dirección.<p>
+                <p>Shang-Chi y la leyenda de los Diez Anillos (en inglés: Shang-Chi and the Legend of the Ten Rings) es una película estadounidense de superhéroes de 2021 basada en el personaje de Marvel Shang-Chi y confirmada oficialmente en la Convención Internacional de Cómics de San Diego de 2019. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la vigésima quinta película en el Universo cinematográfico de Marvel. La cinta está dirigida por Destin Daniel Cretton, escrita por David Callaham y Cretton y protagonizada por Simu Liu como Shang-Chi, junto a Tony Leung y Awkwafina.</p>
 
                 <h2>Tráiler</h2>
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/5VYb3B1ETlk" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/8YjFbMbfXaQ" title="YouTube video" allowfullscreen></iframe>
                   </div>
             </div>
         </div>

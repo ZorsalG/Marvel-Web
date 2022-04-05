@@ -15,49 +15,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg menu sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo"
-                src="img/logomarvel.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navegador">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Series </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="wandavision.html">WandaVision</a></li>
-                            <li><a class="dropdown-item" href="faws.html">Falcon and the Winter Soldier</a></li>
-                            <li><a class="dropdown-item" href="whatif.html">What if...? </a></li>
-                            <li><a class="dropdown-item" href="hawkeye.html">Hawkeye</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Películas </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="blackwidow.html">Black Widow</a></li>
-                            <li><a class="dropdown-item" href="shangchi.html">Shang-Chi y la Leyenda de los 10 anillos</a></li>
-                            <li><a class="dropdown-item" href="eternals.html">Eternals</a></li>
-                            <li><a class="dropdown-item" href="spidermannowayhome.html">Spider-Man: No Way Home</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php
+    include 'header.php'
+?>
     <div id="controles" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/04/The-Falcon-and-the-Winter-Soldier-resumen-final.jpg?fit=1280%2C720&quality=80&ssl=1"
+                <img src="img/wandavision.webp"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2021/03/Marvel-The-Falcon-and-the-Winter-Soldier-todo-lo-que-debes-saber-4.jpg?fit=1280%2C720&quality=80&ssl=1"
+                <img src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/01/wandavision_jac_schaeffer_5.jpg?fit=1200%2C800&ssl=1"
                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://www.que.es/wp-content/uploads/2021/01/the-falcon-and-the-winter-soldier-1280x720.jpg"
+                <img src="img/wandavisionblanca.webp"
                     class="d-block w-100" alt="...">
             </div>
         </div>
@@ -74,31 +46,31 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 p-3">
-                <h2>The Falcon and the Winter Soldier</h2>
+                <h2>WandaVision</h2>
                 <img
-                    src="https://as01.epimg.net/meristation/imagenes/2020/12/11/noticias/1607688773_161388_1607689047_sumario_normal.jpg"
+                    src="https://m.media-amazon.com/images/I/91uThdajb1L._AC_SY741_.jpg"
                     class="img-thumbnail" />
                 <dl class="p-2">
                     <dt>Dirección</dt>
-                    <dd>Kari Skogland</dd>
+                    <dd>Matt Shakman</dd>
                     <dt>Producción</dt>
                     <dd>Kevin Feige</dd>
                     <dt>Guión</dt>
-                    <dd>Malcolm Spellman</dd>
+                    <dd>Jac Schaeffer</dd>
                     <dt>Música</dt>
-                    <dd>Henry Jackman</dd>
+                    <dd>Christophe Beck</dd>
                     <dt>Fotografía</dt>
-                    <dd>P. J. Dillon</dd>
+                    <dd>Jess Hall</dd>
                 </dl>
             </div>
 
             <div class="col-md-8 p-3">
                 <h2>Sinopsis</h2>
-                <p>The Falcon and the Winter Soldier (Falcon y el Soldado del Invierno en Hispanoamérica y Falcon y el Soldado de Invierno en España), es una miniserie de televisión web estadounidense creada para Disney+ por Malcolm Spellman, basada en los personajes de Marvel Comics, Sam Wilson / Falcon y Bucky Barnes / Soldado de Invierno. Está ambientada en el Universo cinematográfico de Marvel (MCU, por sus siglas en inglés), compartiendo continuidad con las películas de la franquicia. Los eventos de la serie tienen lugar después de la película Avengers: Endgame de 2019. La serie es producida por Marvel Studios, con Spellman como showrunner y Kari Skogland como director.</p>
+                <p>WandaVision (conocida como Bruja Escarlata y Visión en España)1​ es una miniserie de televisión estadounidense creada por Jac Schaeffer para el servicio de streaming Disney+. Está basada en los personajes Wanda Maximoff / Bruja Escarlata y Visión, propiedad de Marvel Comics, y se encuentra ambientada en el Universo cinematográfico de Marvel (UCM). Comparte continuidad con las películas de la franquicia, y tiene lugar después de los eventos de la película Avengers: Endgame (2019). WandaVision está producida por Marvel Studios, y cuenta con Schaeffer como escritora principal y Matt Shakman como director.</p>
 
                 <h2>Tráiler</h2>
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/IWBsDaFWyTE" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/sj9J2ecsSpo" title="YouTube video" allowfullscreen></iframe>
                   </div>
             </div>
         </div>

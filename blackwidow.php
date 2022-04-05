@@ -15,50 +15,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg menu sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo"
-                    src="img/logomarvel.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navegador">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Series </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="wandavision.html">WandaVision</a></li>
-                            <li><a class="dropdown-item" href="faws.html">Falcon and the Winter Soldier</a></li>
-                            <li><a class="dropdown-item" href="whatif.html">What if...? </a></li>
-                            <li><a class="dropdown-item" href="hawkeye.html">Hawkeye</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Películas </a>
-                        <ul class="dropdown-menu fade-up">
-                            <li><a class="dropdown-item" href="blackwidow.html">Black Widow</a></li>
-                            <li><a class="dropdown-item" href="shangchi.html">Shang-Chi y la Leyenda de los 10 anillos</a></li>
-                            <li><a class="dropdown-item" href="eternals.html">Eternals</a></li>
-                            <li><a class="dropdown-item" href="spidermannowayhome.html">Spider-Man: No Way Home</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php
+    include 'header.php'
+?>
     <div id="controles" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/shangchi1.jpg"
-                    class="d-block w-100">
+                <img src="https://media.revistagq.com/photos/605b069e5b7d28b52d842eba/master/pass/black-widow-estreno.jpeg"
+                    class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/shangchi2.jpeg"
-                    class="d-block w-100">
+                <img src="https://ca-times.brightspotcdn.com/dims4/default/a4c7991/2147483647/strip/true/crop/2506x1670+747+0/resize/2000x1333!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbf%2F52%2F126190d94252ac33cdfb09597113%2Fla-ca-black-widow-movie-033.JPG"
+                    class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/shangchi3.jpg"
-                    class="d-block w-100">
+                <img src="https://ca-times.brightspotcdn.com/dims4/default/c6d825b/2147483647/strip/true/crop/6038x4024+5+0/resize/2000x1333!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0e%2F4f%2F44d0583a46a895d13afc56a859e3%2Fblack-widow-1.jpg"
+                    class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#controles" data-bs-slide="prev">
@@ -74,31 +46,39 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 p-3">
-                <h2>Shang-Chi</h2>
+                <h2>Black Widow</h2>
                 <img
-                    src="img/portadashang.jpg"
+                    src="https://larepublica.pe/resizer/B50h9AqfBZ07F2_MWeVX38KLkHE=/538x0/top/larepublica.pe/resizer/Og3meW0zohvwW4Gto9KrYk1aYyo=/538x0/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/3RFSCR2JEVH3XPQF2MX4SS2TIE.jpg"
                     class="img-thumbnail" />
                 <dl class="p-2">
                     <dt>Dirección</dt>
-                    <dd>Destin Daniel Cretton</dd>
+                    <dd>Cate Shortland</dd>
                     <dt>Producción</dt>
                     <dd>Kevin Feige</dd>
                     <dt>Guión</dt>
-                    <dd>Dave Callaham, Destin Daniel Creston y Andrew Lanham</dd>
+                    <dd>Jac Schaeffer y Ned Benson</dd>
                     <dt>Música</dt>
-                    <dd>Joel P. West</dd>
+                    <dd>Lorne Balfe</dd>
                     <dt>Fotografía</dt>
-                    <dd>Bill Pope</dd>
+                    <dd>Rob Hardy</dd>
                 </dl>
             </div>
 
             <div class="col-md-8 p-3">
                 <h2>Sinopsis</h2>
-                <p>Shang-Chi y la leyenda de los Diez Anillos (en inglés: Shang-Chi and the Legend of the Ten Rings) es una película estadounidense de superhéroes de 2021 basada en el personaje de Marvel Shang-Chi y confirmada oficialmente en la Convención Internacional de Cómics de San Diego de 2019. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la vigésima quinta película en el Universo cinematográfico de Marvel. La cinta está dirigida por Destin Daniel Cretton, escrita por David Callaham y Cretton y protagonizada por Simu Liu como Shang-Chi, junto a Tony Leung y Awkwafina.</p>
+                <p>Black Widow (Viuda Negra en España) es una película de superhéroes estadounidense de 2021 basada en
+                    el personaje de Marvel Comics del mismo nombre. Producida por Marvel Studios y distribuida por Walt
+                    Disney Studios Motion Pictures, es la vigésimo cuarta película en el Universo cinematográfico de
+                    Marvel (MCU, por sus siglas en inglés). La película fue dirigida por Cate Shortland y escrita por
+                    Eric Pearson a partir de una historia de Jac Schaeffer y Ned Benson, y está protagonizada por
+                    Scarlett Johansson como Natasha Romanoff/Black Widow junto a Florence Pugh, David Harbour, O. T.
+                    Fagbenle, Olga Kurylenko, William Hurt, Ray Winstone y Rachel Weisz. Ambientada después de Capitán
+                    América: Civil War (2016), la película sigue a Romanoff huyendo de la justicia y obligada a
+                    enfrentarse a su pasado.</p>
 
                 <h2>Tráiler</h2>
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/8YjFbMbfXaQ" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/ybji16u608U" title="YouTube video" allowfullscreen></iframe>
                   </div>
             </div>
         </div>
